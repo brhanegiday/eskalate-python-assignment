@@ -29,6 +29,8 @@ class Client:
         if api:
             if not self.oauth2_token or (
                 isinstance(self.oauth2_token, OAuth2Token) and self.oauth2_token.expired
+            ) or (
+                not isinstance(self.oauth2_token, OAuth2Token)
             ):
                 self.refresh_oauth2()
 

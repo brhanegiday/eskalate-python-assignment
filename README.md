@@ -7,6 +7,34 @@ This assignment evaluates your ability to:
 - write focused tests to reproduce a bug,
 - implement a minimal, reviewable fix.
 
+## How to Run Tests Locally
+
+1. **Install dependencies:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Run the test suite:**
+
+   ```bash
+   pytest -v
+   ```
+
+## How to Build and Run Tests with Docker
+
+1. **Build the Docker image:**
+
+   ```bash
+   docker build -t ai-experts-assignment-3 .
+   ```
+
+2. **Run the tests:**
+
+   ```bash
+   docker run --rm ai-experts-assignment-3
+   ```
+
 ## What you will do
 
 ### 1) Dockerfile (required)
@@ -57,7 +85,7 @@ Create `EXPLANATION.md` (max 250 words) containing:
 - **What was the bug?**
 - **Why did it happen?**
 - **Why does your fix solve it?**
-- **One realistic case / edge case your tests still don’t cover**
+- **One realistic case / edge case your tests still don't cover**
 
 ## Submission
 
