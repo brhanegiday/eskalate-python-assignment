@@ -26,13 +26,13 @@ This assignment evaluates your ability to:
 1. **Build the Docker image:**
 
    ```bash
-   docker build -t ai-experts-assignment-3 .
+   docker build -t eskalate-python-assignment .
    ```
 
 2. **Run the tests:**
 
    ```bash
-   docker run --rm ai-experts-assignment-3
+   docker run --rm eskalate-python-assignment
    ```
 
 ## What you will do
